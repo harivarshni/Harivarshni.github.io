@@ -12,6 +12,44 @@
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+
+.contact-icons {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contact-icons a {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+.contact-icons a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,.2);
+}
+
+.contact-icons i {
+  font-size: 18px;
+}
+
+/* Brand hover colors */
+.contact-icons a[aria-label="Call"]:hover      { background: #2d7a2d; }
+.contact-icons a[aria-label="Email"]:hover     { background: #c23a2b; }
+.contact-icons a[aria-label="GitHub"]:hover    { background: #24292e; }
+.contact-icons a[aria-label="LinkedIn"]:hover  { background: #0a66c2; }
+.contact-icons a[aria-label="WhatsApp"]:hover  { background: #25d366; }
+
 * {
     margin: 0;
     padding: 0;
@@ -239,7 +277,7 @@ section {
 }
 
 .logo-text-large {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--accent-color);
     letter-spacing: 0.2em;
