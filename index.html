@@ -1,112 +1,181 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harivarshni | Web Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <div class="loader">
-        <div class="spinner"></div>
-    </div>
-
-    <header class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Harivarshni</a>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Penguin | Harivarshni</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="loader">
+            <div class="spinner"></div>
         </div>
-    </header>
 
-    <main id="content">
-        <section class="hero">
+        <header class="navbar">
             <div class="container">
-                <h1 class="animate-on-load">Hello, I'm Hari Varshni</h1>
-                <p class="animate-on-load">A Front-End Developer who turns ideas into interactive realities.</p>
-                <a href="#projects" class="btn animate-on-load">View My Work</a>
+                <div class="logo">
+                    <span class="logo-icon">🐧</span>
+                    <span class="logo-text">Penguin</span>
+                </div>
+                <nav class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="nav-icons">
+                    <button class="icon-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </button>
+                    <button class="icon-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </button>
+                    <button class="icon-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
-        </section>
+        </header>
 
-        <section id="about" class="about-me scroll-animate">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    
-                    <p>
-                        I'm a passionate developer with a knack for creating clean, user-friendly web experiences. My expertise lies in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies. I thrive on bringing designs to life and solving complex problems with simple, elegant code.
+        <main id="content">
+            <div class="grid-background"></div>
+            
+            <section class="hero">
+                <div class="container">
+                    <div class="badge animate-on-load">Everything You Need</div>
+                    <h1 class="animate-on-load">
+                        Cut the Clutter.<br>
+                        Command. Exploit. Repeat.
+                    </h1>
+                    <p class="hero-subtitle animate-on-load">
+                        Supercharge your bug bounty workflow: pre-built commands, optimized<br>
+                        workflows, and expert-curated resources — hack smarter, not harder.
                     </p>
+                    <div class="hero-actions animate-on-load">
+                        <button class="btn-primary">View on GitHub</button>
+                    </div>
+                    <div class="hero-logo animate-on-load">
+                        <div class="logo-display">
+                            <span class="logo-text-large">PENGUIN</span>
+                        </div>
+                    </div>
                 </div>
-                 <h3>My Skills</h3>
-                <div class="skills">
-                    <span class="skill-tag">HTML</span>
-                    <span class="skill-tag">CSS</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">Responsive Design</span>
-                    <span class="skill-tag">Git & GitHub</span>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="projects" class="projects">
+            <section id="about" class="about-me scroll-animate">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <div class="about-content">
+                        <p>
+                            I'm a passionate developer with a knack for creating
+                            clean, user-friendly web experiences. My expertise
+                            lies in HTML, CSS, and JavaScript, and I'm always
+                            eager to learn new technologies.
+                        </p>
+                    </div>
+                    <h3 class="scroll-animate">My Skills</h3>
+                    <div class="skills scroll-animate">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <div class="container">
+                    <h2 class="scroll-animate">My Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card scroll-animate">
+                            <img
+                                src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop&auto=format"
+                                alt="E-Commerce Website Screenshot"
+                            />
+                            <h3>ShopEase E-Commerce Platform</h3>
+                            <p>
+                                A fully responsive e-commerce website with
+                                shopping cart functionality, product filtering,
+                                and secure checkout process.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                        <div class="project-card scroll-animate">
+                            <img
+                                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop&auto=format"
+                                alt="Task Management App Screenshot"
+                            />
+                            <h3>TaskFlow Management System</h3>
+                            <p>
+                                An intuitive task management application
+                                featuring drag-and-drop functionality and
+                                real-time updates.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS Grid</span>
+                                <span class="tech-tag">Local Storage</span>
+                                <span class="tech-tag">Drag & Drop API</span>
+                            </div>
+                        </div>
+                        <div class="project-card scroll-animate">
+                            <img
+                                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&h=250&fit=crop&auto=format"
+                                alt="Weather Dashboard Screenshot"
+                            />
+                            <h3>WeatherWise Dashboard</h3>
+                            <p>
+                                A comprehensive weather application providing
+                                real-time weather data and 7-day forecasts.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Weather API</span>
+                                <span class="tech-tag">Geolocation</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">CSS Animations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact scroll-animate">
+                <div class="container">
+                    <h2>Get In Touch</h2>
+                    <p>
+                        I'm currently open to new opportunities. Feel free to
+                        reach out via email or connect with me on social media!
+                    </p>
+                    <a href="mailto:harivarshnimay10@google.com" class="btn-primary">Say Hello</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
             <div class="container">
-                <h2 class="scroll-animate">My Projects</h2>
-                <div class="project-grid">
-                    <div class="project-card scroll-animate">
-                        <img src="https://via.placeholder.com/400x250" alt="Project 1 Screenshot">
-                        <h3>Project Title One</h3>
-                        <p>A brief description of the project, its purpose, and the technologies used. Keep it concise and impactful.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn-secondary" target="_blank">Live Demo</a>
-                            <a href="#" class="btn-secondary" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                    <div class="project-card scroll-animate">
-                        <img src="https://via.placeholder.com/400x250" alt="Project 2 Screenshot">
-                        <h3>Project Title Two</h3>
-                        <p>A brief description of the project, its purpose, and the technologies used. Keep it concise and impactful.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn-secondary" target="_blank">Live Demo</a>
-                            <a href="#" class="btn-secondary" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                    <div class="project-card scroll-animate">
-                        <img src="https://via.placeholder.com/400x250" alt="Project 3 Screenshot">
-                        <h3>Project Title Three</h3>
-                        <p>A brief description of the project, its purpose, and the technologies used. Keep it concise and impactful.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn-secondary" target="_blank">Live Demo</a>
-                            <a href="#" class="btn-secondary" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
+                <p>&copy; 2025 Harivarshni. All Rights Reserved.</p>
             </div>
-        </section>
+        </footer>
 
-        <section id="contact" class="contact scroll-animate">
-            <div class="container">
-                <h2>Get In Touch</h2>
-                <p>I'm currently open to new opportunities. Feel free to reach out via email or connect with me on social media!</p>
-                <a href="mailto:harivarshnimay10@google.com" class="btn">Say Hello</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Harivarshni. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
