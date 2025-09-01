@@ -48,8 +48,14 @@
 .contact-icons a[aria-label="Email"]:hover     { background: #c23a2b; }
 .contact-icons a[aria-label="GitHub"]:hover    { background: #24292e; }
 .contact-icons a[aria-label="LinkedIn"]:hover  { background: #0a66c2; }
-.contact-icons a[aria-label="WhatsApp"]:hover  { background: #25d366; }
+.contact-icons a[aria-label="WhatsApp"]:hover  { background:#25d366;}
 
+.skillss:hover {
+  background: white;               /* background becomes white */
+  color: black;                    /* text stays black */
+  border: 1px solid black;         /* black border appears */
+  text-shadow: 2px 2px 5px white;  /* white shadow effect */
+}
 * {
     margin: 0;
     padding: 0;
